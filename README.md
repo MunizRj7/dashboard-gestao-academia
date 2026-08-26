@@ -23,25 +23,25 @@ dashboard-gestao-academia/
 ├── requirements.txt         # Dependências do projeto
 └── README.md
 ⚙️ Como Executar o Projeto
-Clone o repositório:
+1. Clone o repositório:
 
 Bash
-git clone [https://github.com/SEU-USUARIO/dashboard-gestao-academia.git](https://github.com/SEU-USUARIO/dashboard-gestao-academia.git)
+git clone https://github.com/SEU-USUARIO/dashboard-gestao-academia.git
 cd dashboard-gestao-academia
-Crie e ative um ambiente virtual:
+2. Crie e ative um ambiente virtual:
 
 Bash
 python -m venv .venv
 .\.venv\Scripts\Activate
-Instale as dependências:
+3. Instale as dependências:
 
 Bash
 pip install -r requirements.txt
-Execute o pipeline de ETL para gerar e tratar os dados:
+4. Execute o pipeline de ETL para gerar e tratar os dados:
 
 Bash
 python src/etl.py
-Inicie o Dashboard interativo:
+5. Inicie o Dashboard interativo:
 
 Bash
 streamlit run app.py
